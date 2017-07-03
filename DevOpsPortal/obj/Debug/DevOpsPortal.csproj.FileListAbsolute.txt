@@ -95,3 +95,7 @@ C:\repos\DevOpsPortal\DevOpsPortal\bin\System.Web.WebPages.Razor.xml
 C:\repos\DevOpsPortal\DevOpsPortal\obj\Debug\DevOpsPortal.csprojResolveAssemblyReference.cache
 C:\repos\DevOpsPortal\DevOpsPortal\obj\Debug\DevOpsPortal.dll
 C:\repos\DevOpsPortal\DevOpsPortal\obj\Debug\DevOpsPortal.pdb
+C:\repos\DevOpsPortal\DevOpsPortal\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\repos\DevOpsPortal\DevOpsPortal\bin\System.Diagnostics.DiagnosticSource.dll
+C:\repos\DevOpsPortal\DevOpsPortal\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\repos\DevOpsPortal\DevOpsPortal\bin\System.Diagnostics.DiagnosticSource.xml

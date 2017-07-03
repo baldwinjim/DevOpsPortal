@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevOpsPortal.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,8 +11,10 @@ namespace DevOpsPortal.Controllers
     {
         public ActionResult Index()
         {
+            EnvContext envContext = new EnvContext();
+            Env env = envContext.Envs.Single(x => x.Name == "Test");
 
-            return View();
+            return View(env);
         }
     }
 }
