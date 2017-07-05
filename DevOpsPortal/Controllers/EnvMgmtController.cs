@@ -9,12 +9,22 @@ namespace DevOpsPortal.Controllers
 {
     public class EnvMgmtController : Controller
     {
+        [HttpGet]
         public ActionResult Index()
         {
             EnvContext envContext = new EnvContext();
-            Env env = envContext.Envs.Single(x => x.Name == "Test");
+            var env = envContext.Envs;
 
             return View(env);
+        }
+
+        [HttpPost]
+        public ActionResult Index(FormCollection formCollection)
+        {
+            Env env = new Env();
+            TryUpdateModel(env);
+
+            return RedirectToAction("Index");
         }
     }
 }
